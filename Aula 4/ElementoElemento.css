@@ -1,0 +1,10 @@
+p {
+    color: red;
+}
+
+ul p {
+    color: blue;
+}
+li, p, .catninja, #catninja{
+    text-shadow: 10px 5px 5px blueviolet;
+}

@@ -1,0 +1,27 @@
+/* 
+font-weight-deixa em Negrito
+line-height-cria espaço entre as linhas
+text-aling-alinha o texto
+text-shadow
+text-indent
+filter-Op.
+*/
+span {
+    font-weight: bold;
+    text-align: right;
+}
+
+strong {
+    font-weight: 100;
+}
+
+article {
+    font-style: italic;
+    color: orange;
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
+text-indent

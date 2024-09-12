@@ -1,0 +1,33 @@
+p {
+    display: none;
+    /* 
+    font-size: 2cm; - Unidade de media abs.
+    font-size: 2in; - Unidade de media abs.
+    */
+    font-size: 20px;
+}
+
+h2 {
+    display: none;
+    font-size: 22.5px;
+}
+
+ul {
+    list-style: none;
+    font-size: 2em;
+    /* Remove o macador */
+}
+
+* {
+    font-size: 20px;
+}
+
+h2 {}
+
+ul {
+    font-size: 2em;
+}
+
+li {
+    font-size: 3.5rem;
+}
