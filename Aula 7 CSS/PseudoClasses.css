@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: red;
+}
+
+h1:active{
+    color: greenyellow;
+}
+a:visited{
+    color: green;
+}

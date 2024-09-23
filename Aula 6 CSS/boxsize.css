@@ -1,0 +1,19 @@
+div{
+    border: solid 5px red;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+#box1{
+    padding: 10px;
+    border-color: violet;
+    border-style: dotted;
+    border-width: 5px;
+}
+#box2{
+    padding: 10px;
+    border-color: darkcyan;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: content-box;
+}

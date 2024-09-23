@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+}
+.box1{
+    width: 100vw;
+    height: 50vh;/* Altura */
+    background-color: blueviolet;
+}
+.box2{
+    width: 100vw;
+    height: 80vh;
+    background-color: aqua;
+    margin: 5px;
+}
+.box3{
+    width: 100vw;
+    height: 30vh;
+    background-color: chocolate;
+}

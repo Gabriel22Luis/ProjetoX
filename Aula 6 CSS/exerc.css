@@ -1,0 +1,17 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+.primeiro{
+    float: left;
+}
+.segundo{
+    float: right;
+}
+.borda{
+    border: solid 5px red;
+    
+}
+p{
+    margin: 10px;
+}
