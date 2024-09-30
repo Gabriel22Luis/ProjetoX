@@ -1,0 +1,46 @@
+.container {
+    width: 900px;
+    height: 800px;
+    margin: auto 0px;
+    background-color: beige;
+    border: dotted 1px black;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-area:
+        "box1 box1 box1 box1 box1 box1 box1"
+        "box1 box1 box1 box1 box1 box1 box1"
+        "box2 box2 box3 box3 box3 box4 box4"
+        "box5 box5 box5 box5 box5 box5 box5"
+        "box5 box5 box5 box5 box5 box5 box5"
+        "box5 box5 box5 box5 box5 box5 box5"
+        "box5 box5 box5 box5 box5 box5 box5"
+        "box6 box6 box6 box6 box6 box7 box7"
+        "box8 box8 box8 box8 box8 box8 box8"
+        "box8 box8 box8 box8 box8 box8 box8"
+    ;
+}
+
+.caixa1 {
+    text-align: center;
+    grid-area: box1;
+    background-color: red;
+}
+
+.caixa2 {
+    text-align: center;
+    grid-area: box2;
+    background-color: black;
+}
+
+.caixa3 {
+    text-align: center;
+    grid-area: box3;
+    background-color: blueviolet;
+}
+
+.caixa4 {
+    text-align: center;
+    grid-area: box4;
+    background-color: blue;
+}

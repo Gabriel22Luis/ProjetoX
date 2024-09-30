@@ -1,0 +1,52 @@
+.container {
+    width: 700px;
+    height: 800px;
+    margin: 5px;
+    background-color: beige;
+    border: dotted 1px purple;
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+
+    /* grid-template-columns- Cria grids em colunas */
+
+    /* grid-template-columns: 200px 200px 200px 200px; */
+
+    grid-template-columns: repeat(5, 1fr);
+
+    grid-template-rows: repeat(5, 1fr);
+
+    grid-template-areas:
+    /* A quantidade de repetições define a largura/tamanho*/
+        "header header header header header"
+        "prop prop main main main"
+        "prop prop main main main"
+        "prop prop main main main"
+        "footer footer footer footer footer"
+    ;
+
+
+}
+
+.caixa1 {
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+}
+
+.caixa2 {
+    grid-area: prop;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.caixa3 {
+    grid-area: main;
+    background-color: limegreen;
+    text-align: center;
+}
+
+.caixa4 {
+    grid-area: footer;
+    background-color: darkgoldenrod;
+    text-align: center;
+}

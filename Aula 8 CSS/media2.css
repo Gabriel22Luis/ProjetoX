@@ -1,0 +1,15 @@
+*{
+    background-color: bisque;
+}
+@media (orientation: landscape){
+    body img {
+    display: block;
+    margin: 0 auto;
+}
+}
+h1 {
+    color: blue;
+}
+p {
+    display: none;
+}

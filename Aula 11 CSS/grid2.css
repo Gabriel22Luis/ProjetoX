@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    display: grid;
+    width:  800px;
+    height: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    row-gap: 35px 35px;
+    grid-template-areas: 
+    "box1 box1 box1"
+    "box2 box2 box2"
+    "box3 box3 box3";
+}
+
+.box1{
+    grid-area: box1;
+  background-color: #789834;
+}
+
+.box2{
+    grid-area: box2;
+    background-color: darkorchid;
+}
+
+.box3{
+    grid-area: box3;
+    background-color: blueviolet;
+}

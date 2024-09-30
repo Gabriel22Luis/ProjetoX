@@ -1,0 +1,71 @@
+* {
+    padding: 10px;
+    margin: 0vh;
+}
+
+.caixa {
+    border: solid 5px black;
+    background-color: beige;
+    margin: auto 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.xaixa1 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    order: 1;
+}
+
+.xaixa2 {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    order: 2;
+}
+
+.xaixa3 {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+order: 3;
+}
+
+.ba {
+    margin: auto ;
+    border: dashed 5px black;
+    background-color: chartreuse;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    /*Muda o layout do display*/
+
+
+    /*Muda o comportamento do container*/
+
+    /* flex-direction: column ; */
+
+    /* flex-direction: column-reverse ; */
+
+    /* flex-direction: row-reverse ; */
+
+    flex-direction: row ;
+
+
+    /*Padrão esquerda e direita*/
+
+    /* direction: ltr; */
+
+    /* direction: rtl; */
+
+    /* flex-wrap: wrap; */
+
+     /* flex-wrap: nowrap; */
+
+     /* flex-wrap: wrap-reverse; */
+
+/* Reverse = de baixo para cima */
+flex-direction: row;
+
+}
